@@ -1,0 +1,17 @@
+{
+  "chat.disableAIFeatures": true,
+
+  "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.rightClickBehavior": "default",
+
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+
+  "tailwindCSS.classFunctions": ["cva", "cx"],
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}
