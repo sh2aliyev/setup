@@ -1,7 +1,8 @@
 {
+  "workbench.colorTheme": "Dark Modern",
+
   "chat.disableAIFeatures": true,
 
-  "terminal.integrated.suggest.enabled": false,
   "terminal.integrated.rightClickBehavior": "default",
 
   "editor.minimap.enabled": false,
@@ -12,6 +13,9 @@
   "editor.wordWrap": "on",
 
   "tailwindCSS.classFunctions": ["cva", "cx"],
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
 
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "oxc.oxc-vscode"
 }
