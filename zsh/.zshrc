@@ -47,4 +47,11 @@ source "$HOME/.zplugins/powerlevel10k/powerlevel10k.zsh-theme"
 source "$HOME/.zplugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source "$HOME/.zplugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
+# fnm
+fnm_path="$HOME/.local/share/fnm"
+if [ -d "$fnm_path" ]; then
+  export PATH="$fnm_path:$PATH"
+  eval "$(fnm env --shell zsh)"
+fi
+
 # ---
